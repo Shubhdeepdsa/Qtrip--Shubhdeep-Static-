@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QTrip Adventures</title>
+  <link rel="stylesheet" href="../../css/styles.css" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- TODO: MODULE_ADVENTURES_GRID -->
+  <!-- 1. Copy navigation bar HTML from Landing page document -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a href="#" class="navbar-brand">Qtrip</a>
+    <button class= "navbar-toggler " data-toggle = "collapse" data-target = "#navbarMenu">
+      <span class = "navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+
+      <ul class="navbar-nav ml-auto">
+       <li class="navbar-item">
+         <a href="#" class="nav-link">Home</a>
+       </li>
+       <li class="navbar-item">
+         <a href="#" class="nav-link">Explore</a>
+       </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <div class="container">
+
+    <h3>Explore all adventures</h3>
+    <div class="subheading">
+  
+      <h6>Here is the list of all the adventures that you can explore in city</h6>
+    </div>
+  </div>
+  <div class="container row-col-3">
+    <div class="content">
+      <!-- TODO: MODULE_ADVENTURES_GRID -->
+      <!-- 1. Create the grid of adventures by adding child elements as required. -->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6 col-lg-3">
+            <a href="./resort/index.html">
+
+              <div class="card adventure-card rounded">
+                <img src="../../assets/adventures/resort.jpg"class="card-img-top" alt="resort">
+                <div class="card-body">
+                  <div class="card-content" style="font-weight: bold;">Resort</div>
+                  <div class="card-content">1200₹</div>
+                </div>
+              </div>
+            </a>
+            </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card adventure-card">
+              <img src="../../assets/adventures/tower.jpg"class="card-img-top" alt="resort">
+              <div class="card-body">
+                <div class="card-content" style="font-weight: bold;">Tower</div>
+                <div class="card-content">1800₹</div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="card adventure-card">
+                <img src="../../assets/adventures/church.jpg"class="card-img-top" alt="resort">
+                <div class="card-body">
+                  <div class="card-content" style="font-weight: bold;">Church</div>
+                  <div class="card-content">1900₹</div>
+                </div>
+              </div>
+            </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="card adventure-card">
+                  <img src="../../assets/adventures/university.jpg"class="card-img-top" alt="resort">
+                  <div class="card-body">
+                    <div class="card-content" style="font-weight: bold;">University</div>
+                    <div class="card-content">1200₹</div>
+                  </div>
+                </div>
+                </div>
+          </div>
+
+          <div class="row" style="margin-top: 10px;">
+
+            <div class="col-sm-6 col-lg-3">
+              <div class="card adventure-card rounded">
+                <img src="../../assets/adventures/beachside.jpg"class="card-img-top" alt="resort">
+                <div class="card-body">
+                    <div class="card-content" style="font-weight: bold;">Beachside</div>
+                    <div class="card-content">1200₹</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="card adventure-card">
+                <img src="../../assets/adventures/canopy.jpg"class="card-img-top" alt="resort">
+                <div class="card-body">
+                  <div class="card-content" style="font-weight: bold;">Canopy</div>
+                  <div class="card-content">1800₹</div>
+                </div>
+              </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="card adventure-card">
+                  <img src="../../assets/adventures/market.jpg"class="card-img-top" alt="resort">
+                  <div class="card-body">
+                    <div class="card-content" style="font-weight: bold;">Market</div>
+                    <div class="card-content">1900₹</div>
+                  </div>
+                </div>
+              </div>
+                <div class="col-sm-6 col-lg-3">
+                  <div class="card adventure-card">
+                    <img src="../../assets/adventures/huts.jpg"class="card-img-top" alt="resort">
+                    <div class="card-body">
+                      <div class="card-content" style="font-weight: bold;">Hut</div>
+                      <div class="card-content">1200₹</div>
+                    </div>
+                  </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+        <footer>
+          <div class="container">© QTrip 2020</div>
+  </footer>
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</body>
+
+</html>
